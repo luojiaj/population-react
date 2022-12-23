@@ -105,7 +105,6 @@ export default class index extends Component {
       plotOptions: {
         series: {
           animation:true,
-          color:'pink',
           label: {
             connectorAllowed: false
           },
@@ -113,13 +112,6 @@ export default class index extends Component {
           pointInterval: 5
         }
       },
-      // series: [{
-      //   name: '安装，实施人员',
-      //   data: [43934, 52503, 57177, 69658, 97031, 119931, 137133, 154175]
-      // }, {
-      //   name: '工人',
-      //   data: [24916, 24064, 29742, 29851, 32490, 30282, 38121, 40434]
-      // }],
       series: this.state.number,
       responsive: {
         rules: [{
