@@ -1,0 +1,43 @@
+.container{
+    padding: 20px 0px 0px 10px;
+    width: 100%;
+}
+.singleBox{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%
+}
+.label_item{
+    flex:1 0 8%;
+}
+@media screen and (max-width:991px) {
+    .singleBox label{
+        flex:1 0 15%;
+    }
+}
+.wrap_item{
+    border-radius: 5px;
+    width:5%;
+    height: 20px;
+}
+@media screen and (max-width:600px) {
+    .singleBox label{
+        flex:1 0 25%
+    }
+}
+/* input{
+    width: 15px;
+    height: 15px;
+    margin-bottom: 10px;
+}
+
+span{
+    text-align: center;
+    padding: 5px;
+} */
+.wrap{
+    width:100%
+}
